@@ -35,7 +35,7 @@ public class Main {
     public static void speech() throws ExecutionException, InterruptedException {
 
 
-            String subscriptionKey = "f0bfd4873d2848249f7e88a4cb2c17ce";
+            String subscriptionKey = "Speech Microsoft key";
 
 
             String serviceRegion = "eastus";
