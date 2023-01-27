@@ -41,7 +41,7 @@ public class ConversationManager {
     public void getResponse(String playerMessage) throws ExecutionException, InterruptedException {
 
         //Use OpenAI to get a response from GPT-3
-        OpenAiService service = new OpenAiService("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", 0);
+        OpenAiService service = new OpenAiService("Yout Open-AI key", 0);
         CompletionRequest request = CompletionRequest.builder()
                 .prompt(this.conversation.toString())
                 .model("text-davinci-003") //Use the latest davinci model
